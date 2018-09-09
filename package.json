@@ -6,13 +6,13 @@
     "parse"
   ],
   "engines": {
-    "node": "4.1.x",
-    "npm": "3.7.x"
+    "node": "9.2.1",
+    "npm": "5.6.0"
   },
   "dependencies": {
-    "express": "^4.13.4",
-    "mongodb-runner": "^3.2.1",
-    "parse-server": "^2.2.6"
+    "express": "4.16.3",
+    "mongodb-runner": "4.1.0",
+    "parse-server": "3.0.0"
   },
   "scripts": {
     "start": "mongodb-runner && node index.js"
