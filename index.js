@@ -6,6 +6,9 @@ var api = new ParseServer({
   databaseURI: process.env.MONGO_URL,
   appId: process.env.APP_ID,
   masterKey: process.env.APP_SECRET,
+  javascriptKey: process.env.JS_KEY,
+  restAPIKey: process.env.REST_API_KEY,
+  clientKey: process.env.CLIENT_KEY,
   serverURL: process.env.APP_URL
 });
 

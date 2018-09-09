@@ -19,8 +19,11 @@ You will now have a `MONGO_URL` environment variable.  Set up other environment
 variables too:
 
     > dokku config:set parse APP_ID=<APP_ID>
-    > dokku config:set parse APP_SECRET=<APP_SECRET>
+    > dokku config:set parse APP_SECRET=<MASTER_KEY>
     > dokku config:set parse APP_URL=<APP_URL>
+    > dokku config:set parse REST_API_KEY=<REST_API_KEY>
+    > dokku config:set parse CLIENT_KEY=<CLIENT_KEY>
+    > dokku config:set parse JS_KEY=<JS_KEY>
 
 You don't need to set the port here, Dokku will do this for you.
 
